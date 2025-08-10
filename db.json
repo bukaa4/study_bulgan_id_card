@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "text": "Build a todo app",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "text": "Review todo app code",
+      "completed": false
+    },
+    {
+      "id": "dcd2",
+      "text": "Add more functionality, like categorize todos etc.",
+      "completed": false
+    }
+  ]
+}

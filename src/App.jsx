@@ -4,6 +4,8 @@ import { Link, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Work from "./pages/Work.jsx";
+import Todo from "./pages/Todo.jsx";
+import Todo2 from "./pages/Todo2.jsx";
 
 function App() {
   return (
@@ -19,6 +21,12 @@ function App() {
           <Menu.Item key="work">
             <Link to="/work">작업화면</Link>
           </Menu.Item>
+          <Menu.Item key="todo">
+            <Link to="/todo">Todo</Link>
+          </Menu.Item>
+          <Menu.Item key="todo2">
+            <Link to="/todo2">Todo2</Link>
+          </Menu.Item>
         </Menu>
       </Header>
       <Content style={{ padding: "1rem" }}>
@@ -26,6 +34,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<Work />} />
+          <Route path="/todo" element={<Todo />} />
+          <Route path="/todo2" element={<Todo2 />} />
         </Routes>
       </Content>
       <Footer>푸터</Footer>
