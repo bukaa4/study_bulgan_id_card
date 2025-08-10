@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/study_my_id_card">
+    <BrowserRouter basename="/bulgan_study">
       <App />
     </BrowserRouter>
   </StrictMode>,
