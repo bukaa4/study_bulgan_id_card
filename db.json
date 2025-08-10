@@ -11,8 +11,13 @@
       "completed": false
     },
     {
-      "id": "dcd2",
-      "text": "Add more functionality, like categorize todos etc.",
+      "id": "6b51",
+      "text": "Add README to the project",
+      "completed": false
+    },
+    {
+      "id": "ace3",
+      "text": "Categorize todos, like Completed, Active etc.",
       "completed": false
     }
   ]
