@@ -16,19 +16,19 @@ export const profile = {
       company: "eBay Inc.",
       role: "Backend Software Engineer",
       duration: "2019 - 2023",
-      description: "Assisted in building dashboards and web pages."
+      description: "Built eCommerce web microservices using Spring Boot and Oracle."
     },  
     {
       company: "Expedia Inc.",
       role: "Backend Software Engineer",
       duration: "2018 - 2019",
-      description: "Assisted in building dashboards and web pages."
+      description: "Built Lodging web microservices using Spring Boot, Oracle and mongo."
     },  
     {
       company: "Golomt Bank of Mongolia",
       role: "Full Stack Developer",
       duration: "2012 - 2018",
-      description: "Assisted in building dashboards and web pages."
+      description: "Built eCommerce and Core banking system using Java 6, JSP, Jquery and Oracle."
     }
   ];
   
@@ -49,5 +49,5 @@ export const profile = {
     }
   ];
   
-  export const skills = ["Java", "JavaScript", "Ant Design", "Node.js", "CSS", "Oracle Sql", "MongoDb"];
+  export const skills = ["Java", "JavaScript", "Ant Design", "Node.js", "CSS", "Oracle", "MongoDb"];
   
